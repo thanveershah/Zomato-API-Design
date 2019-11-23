@@ -50,7 +50,7 @@ class Modal extends React.PureComponent {
   setCity = cities => {
     localStorage.clear();
     localStorage.setItem("cities", JSON.stringify(cities));
-    this.props.history.push("/");
+    this.props.history.push("/home");
   };
 
   render() {

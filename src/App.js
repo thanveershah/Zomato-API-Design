@@ -8,8 +8,8 @@ function App() {
   return (
     <div className="app-container">
       <Router>
-        <Route path="/"  exact component={Home} />
-        <Route path="/modal" component={Modal} />
+        <Route path="/modal" exact component={Home} />
+        <Route path="/home" component={Modal} />
       </Router>
     </div>
   );
